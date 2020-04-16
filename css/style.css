@@ -1,0 +1,53 @@
+
+*{
+
+box-sizing: border-box;
+
+}
+body{
+  font-family: sans-serif;
+text-align: center;
+background:lightskyblue;
+margin: 0;
+}
+form{
+  background:blueviolet;
+  max-width: 450px;
+  margin: 0 auto;
+  box-shadow: lightblue;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+
+.control
+{
+text-align: left;
+margin-bottom: 20px;
+}
+
+.control label{
+  display: block;
+  margin-bottom: 6px;
+
+
+}
+
+
+.control input, .control select, .control textarea{
+  display: block;
+  width: 100%;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 2px;
+
+}
+.control input[type="radio"], .control input[type="checkbox"]
+{
+  display: inline-block;
+  width:auto ;
+  
+}
+.control input[type="submit"]
+{
+  background: green;
+}

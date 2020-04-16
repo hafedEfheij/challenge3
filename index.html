@@ -9,8 +9,94 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-   <h1>hello world</h1>
-    -->
+  <h1 id="title">freeCodeCamp Survey Form
+  </h1>
+  <i>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </i>
+  <form id="survey-form" action="">
+    <!-- Name 1-->
+    <div class="control">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" name="name" required placeholder="Enter your name">
+    </div>
+    <!-- Name 2-->
+    <div class="control">
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="email" name="email" required placeholder="Enter your Email">
+    </div>
+  
+    <!-- Namber 3-->
+    <div class="control">
+      <label id="number-label" for="number">Age(optional)</label>
+      <input id="number" type="number" name="number" required placeholder="Enter your age" min="2" max="8">
+    </div>
+  
+    <!-- Namber 4-->
+    <div class="control">
+      <label id="role-label" for="role">Which option best describes your current role?
+      </label>
+      <select name="" id="dropdown">
+        <option value="full">sull time </option>
+        <option value="part">part time </option>
+        <option value="semi">semi time </option>
+      </select>
+  
+    </div>
+    <!-- Namber 5-->
+    <div class="control">
+      <label id="role">Would you recommend freeCodeCamp to a friend?
+      </label>
+      <label for="e">
+        <input type="radio" name="red" value="red" id="e">Definitely
+  
+      </label>
+      <label for="e">
+        <input type="radio" name="red" value="re" id="e">Maybe
+  
+      </label>
+      <label for="e">
+        <input type="radio" name="red" value="rd" id="e">Not sure
+  
+      </label>
+  
+    </div>
+  
+    <div class="control">
+      <label id="role">What is your favorite feature of freeCodeCamp?
+      </label>
+      <label for="">
+        <input type="checkbox" name="red" value="red" id="">Open source
+  
+      </label>
+      <label for="">
+        <input type="checkbox" name="rd" value="re" id="">community
+  
+      </label>
+      <label for="">
+        <input type="checkbox" name="re" value="rd" id="">Projects
+  
+      </label>
+  
+    </div>
+  
+    <div class="control">
+      <label id="role"> Any comments or suggestions?
+      </label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+  
+    </div>
+  
+    <div class="control">
+  
+      <input type="submit" value="submit" id="submit" placeholder="any comments">
+    </div>
+  
+  
+  
+  </form>
+  </body>
     <script  src="js/index.js"></script>
   </body>
 </html>
